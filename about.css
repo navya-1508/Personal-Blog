@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(185, 185, 206);
+    color:black;
+}
+
+.nav{
+    display: flex;
+}
+li{
+    display: inline;
+    margin-right: 30px;
+    font-size: 25px;
+    &{
+        cursor: pointer;
+    }
+    a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+    }
+}
+ul{
+    margin-left: 500px;
+    margin-top: 25px;
+}
+
+h1{
+    padding-left: 150px;
+    padding-top: 25px;
+}
+
+.about{
+    border: 1.5px solid rgb(0, 0, 9);
+    border-radius: 20px;
+    padding: 5px;
+}
